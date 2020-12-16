@@ -26,7 +26,7 @@ INSERT INTO instrument (project_id, id, slug, name, formula, geometry, type_id) 
     ('a012e753-9eff-426d-b0ee-090b430d1980', 'b9b0ec3f-3f84-4c41-b8ff-55bdf7b6138a', 'jonn6', 'JONN6', null, ST_GeomFromText('POINT(-77.84 42.77)',4326), '98a61f29-18a8-430a-9d02-0f53486e0984'),
     ('a012e753-9eff-426d-b0ee-090b430d1980', 'a4fc3899-be8d-4055-b9e9-cd9ff986ba98', 'knvn6', 'KNVN6', null, ST_GeomFromText('POINT(-78.31 43.3)',4326), '98a61f29-18a8-430a-9d02-0f53486e0984'),
     ('a012e753-9eff-426d-b0ee-090b430d1980', '3b260872-3454-473b-bfb7-087ed0e809b0', 'mbyp1', 'MBYP1', null, ST_GeomFromText('POINT(-77.75 42.92)',4326), '98a61f29-18a8-430a-9d02-0f53486e0984'),
-    ('a012e753-9eff-426d-b0ee-090b430d1980', 'ef991379-a625-4de7-bc6a-2902fea1bc79', 'mount-morris', 'Mount Morris', null, ST_GeomFromText('POINT(-77.90690595378125 42.73327583350692)',4326), '98a61f29-18a8-430a-9d02-0f53486e0984');
+    ('a012e753-9eff-426d-b0ee-090b430d1980', 'ef991379-a625-4de7-bc6a-2902fea1bc79', 'mount-morris', 'Mount Morris', null, ST_GeomFromText('POINT(-77.90690595378125 42.73327583350692)',4326), '98a61f29-18a8-430a-9d02-0f53486e0984'),
     ('a012e753-9eff-426d-b0ee-090b430d1980', '4e06209a-9e0b-4430-87fe-a7ac49d92160', 'oatkacr-garbutt', 'OatkaCr Garbutt', null, ST_GeomFromText('POINT(-77.79 43.01)',4326), '98a61f29-18a8-430a-9d02-0f53486e0984'),
     ('a012e753-9eff-426d-b0ee-090b430d1980', 'abf85e4e-e9f5-4814-9ecd-d21de65a2feb', 'oatkacr-warsaw', 'OatkaCr Warsaw', null, ST_GeomFromText('POINT(-78.14 42.74)',4326), '98a61f29-18a8-430a-9d02-0f53486e0984'),
     ('a012e753-9eff-426d-b0ee-090b430d1980', '606dcda7-8287-4435-9d66-deb4c03b4bf6', 'olnn6', 'OLNN6', null, ST_GeomFromText('POINT(-78.45 42.07)',4326), '98a61f29-18a8-430a-9d02-0f53486e0984'),
@@ -35,7 +35,7 @@ INSERT INTO instrument (project_id, id, slug, name, formula, geometry, type_id) 
     ('a012e753-9eff-426d-b0ee-090b430d1980', '0db970b5-3c46-4f54-b17b-8e861c0a5d65', 'rohn6', 'ROHN6', null, ST_GeomFromText('POINT(-77.62 43.14)',4326), '98a61f29-18a8-430a-9d02-0f53486e0984'),
     ('a012e753-9eff-426d-b0ee-090b430d1980', '2673f0e2-16a4-443a-ac86-7c337d960f4f', 'shnp1', 'SHNP1', null, ST_GeomFromText('POINT(-78.2 41.96)',4326), '98a61f29-18a8-430a-9d02-0f53486e0984'),
     ('a012e753-9eff-426d-b0ee-090b430d1980', '2ae81f1b-2bcb-40e8-9f12-5874d4269cc5', 'weln6', 'WELN6', null, ST_GeomFromText('POINT(-77.96 42.12)',4326), '98a61f29-18a8-430a-9d02-0f53486e0984'),
-    ('a012e753-9eff-426d-b0ee-090b430d1980', 'f063108f-9c3b-49fd-b981-1be021278ebf', 'wrsn6', 'WRSN6', null, ST_GeomFromText('POINT(-78.14 42.74)',4326), '98a61f29-18a8-430a-9d02-0f53486e0984'),
+    ('a012e753-9eff-426d-b0ee-090b430d1980', 'f063108f-9c3b-49fd-b981-1be021278ebf', 'wrsn6', 'WRSN6', null, ST_GeomFromText('POINT(-78.14 42.74)',4326), '98a61f29-18a8-430a-9d02-0f53486e0984');
 
 -- Instrument Group Instruments
 INSERT INTO instrument_group_instruments (instrument_id, instrument_group_id) VALUES
