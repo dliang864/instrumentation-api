@@ -11,11 +11,14 @@
       "mode": "auto",
       "program": "${workspaceFolder}/main.go",
       "env": {
+        "INSTRUMENTATION_APPLICATION_KEY": "appkey",
         "INSTRUMENTATION_LAMBDACONTEXT": "false",
-        "INSTRUMENTATION_DBUSER": "instrumentation_user",
+        "INSTRUMENTATION_AUTH_DISABLED": "false",
+        "INSTRUMENTATION_AUTH_JWT_MOCKED": "true",
+        "INSTRUMENTATION_DBUSER": "postgres",
         "INSTRUMENTATION_DBPASS": "password",
         "INSTRUMENTATION_DBNAME": "postgres",
-        "INSTRUMENTATION_DBHOST": "localhost",
+        "INSTRUMENTATION_DBHOST": "host.docker.internal",
         "INSTRUMENTATION_DBSSLMODE": "disable",
         "INSTRUMENTATION_HEARTBEATKEY": "password"
       },
